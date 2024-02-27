@@ -47,6 +47,10 @@ table {
 	border-spacing: 0;
 }
 
+*{
+    box-sizing: border-box;
+}
+
 :root {
     font-family: "Roboto", sans-serif;
     --black-color: #1c1c1c;
