@@ -5,13 +5,16 @@ export const SCHeader = styled.header`
   height: 60px;
   max-height: 60px;
   padding-left: 20px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
 
   @media (min-width: 1024px) {
     padding-left: 32px;
   }
 
   img {
-    height: 100%;
+    width: 44px;
     object-fit: cover;
   }
 `;
