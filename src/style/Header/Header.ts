@@ -10,7 +10,7 @@ export const SCHeader = styled.header`
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
 
   @media (min-width: 1024px) {
-    padding-left: 32px;
+    padding-left: 60px;
   }
 
   img {

@@ -62,6 +62,10 @@ table {
     --blue-secundary-color: #594ed2;
 }
 
+body, html {
+    height: 100%;
+}
+
 h1, h2, h3 {
     font-weight: 500;
     font-style: normal;
