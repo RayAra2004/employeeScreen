@@ -8,6 +8,26 @@ export const SCApp = styled.div`
     margin: auto;
     width: 90%;
     padding-top: 60px;
+
+    table {
+      width: 100%;
+      margin-top: 80px;
+      border-collapse: collapse;
+      font-weight: 400;
+      font-size: 16px;
+      .web {
+        display: none;
+      }
+      @media (min-width: 1024px) {
+        .web {
+          display: table-cell;
+        }
+
+        .mobile {
+          display: none;
+        }
+      }
+    }
   }
 `;
 
