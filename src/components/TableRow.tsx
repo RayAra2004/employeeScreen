@@ -1,5 +1,6 @@
 /* eslint-disable camelcase */
 import { SCTableRow } from '../style/TableEmployee/TableRow';
+import formateDate from '../utils/formateDate';
 
 export type Employee = {
   id: number;
@@ -12,6 +13,7 @@ export type Employee = {
 
 export default function TableRow(props: Readonly<Employee>) {
   const { name, job, admission_date, phone, image } = props;
+
   return (
     <SCTableRow>
       <td>
@@ -19,7 +21,7 @@ export default function TableRow(props: Readonly<Employee>) {
       </td>
       <td>{name}</td>
       <td>{job}</td>
-      <td>{admission_date}</td>
+      <td>{formateDate(admission_date)}</td>
       <td>{phone}</td>
     </SCTableRow>
   );
