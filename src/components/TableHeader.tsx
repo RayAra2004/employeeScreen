@@ -1,4 +1,4 @@
-import { SCTableHeader } from '../style/TableHeader/TableHeader';
+import { SCTableHeader } from '../style/TableEmployee/TableHeader';
 
 export default function TableHeader() {
   return (
