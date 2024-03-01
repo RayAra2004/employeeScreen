@@ -1,6 +1,7 @@
 /* eslint-disable camelcase */
 import { SCTableRow } from '../style/TableEmployee/TableRow';
 import formateDate from '../utils/formateDate';
+import formatePhone from '../utils/formatePhone';
 
 export type Employee = {
   id: number;
@@ -22,7 +23,7 @@ export default function TableRow(props: Readonly<Employee>) {
       <td>{name}</td>
       <td>{job}</td>
       <td>{formateDate(admission_date)}</td>
-      <td>{phone}</td>
+      <td>{formatePhone(phone)}</td>
     </SCTableRow>
   );
 }
