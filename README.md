@@ -1,30 +1,29 @@
-# React + TypeScript + Vite
+# Emplooye Screen
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Esta aplicação tem como objetivo mostrar as informações dos empregados possibilitando uma pesquisa por nome, profissão ou telefone.
 
-Currently, two official plugins are available:
+## Pré-requisitos
+- É necessário deixar um terminal rodando o servidor e outro com o projeto. Para saber mais veja: [Como rodar o projeto](#como-rodar-o-projeto)
+- A variável de ambiente `VITE_API_URL` deve ter o valor `http://localhost:3000`
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Como rodar o projeto
 
-## Expanding the ESLint configuration
+1. Clone este repositório.
+2. Instale as dependências usando `npm install`.
+3. Configure as variáveis de ambiente em um arquivo chamado `.env` na raiz do projeto, conforme o `.env.example`.
+4. Execute o comando `npm run server` no terminal para iniciar o servidor com os dados.
+5. Em outro terminal execute `npm run dev`.
+6. Acesse o site no link disponibilizado no terminal.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+<details>
+<summary>Variáveis de ambiente</summary>
+  <br/>
+  VITE_API_URL=http://localhost:3000
+</details>
 
-- Configure the top-level `parserOptions` property like this:
+## Tecnologias Utilizadas
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- React (Vite)
+- TypeScript
+- Styled-Components
+- Axios
