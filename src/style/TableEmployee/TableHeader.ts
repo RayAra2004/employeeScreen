@@ -27,6 +27,7 @@ export const SCTableHeader = styled.thead`
 
   .little-ball {
     font-size: 40px;
+    text-align: center;
   }
 
   @media (min-width: 1024px) {

@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const SCApp = styled.div`
-  height: 100vh;
   background-color: var(--gray-00-color);
 
   main {
