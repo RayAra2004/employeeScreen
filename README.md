@@ -3,6 +3,7 @@
 Esta aplicação tem como objetivo mostrar as informações dos empregados possibilitando uma pesquisa por nome, profissão ou telefone.
 
 ## Pré-requisitos
+- Certifique-se de ter o Node.js instalado em seu sistema. Você pode baixá-lo e instalá-lo a partir do [site oficial do Node.js](https://nodejs.org/en).
 - É necessário deixar um terminal rodando o servidor e outro com o projeto. Para saber mais veja: [Como rodar o projeto](#como-rodar-o-projeto)
 - A variável de ambiente `VITE_API_URL` deve ter o valor `http://localhost:3000`
 
